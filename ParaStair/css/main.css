@@ -1,0 +1,55 @@
+﻿body {width:100%;height:100%;padding:0;margin:0;}
+.scenePanel {/*background-color: green;*/ width: 100%; position: absolute; top: 0px; height: 100%; overflow: hidden; }
+
+
+.leftUI { position: absolute; left: 0px; top: 0px; /* background-color: red;*/ width: 5%; height: 100%;}
+.attrHolder { margin-left: 23px; position: relative; width: 200px; height: 75px; display: inline-block; color: white; background-color: transparent; margin-bottom: 2px;}
+.attrHeader { margin-left: 20px; width: 200px; height: 20px; display: inline-block; color: white; }
+.MainHeader { margin-top: 150px; height: 25px; padding-left: 5px; }
+.attrLabel{ position: absolute; left: 0px; top: 25px; margin-left: 50px; color: white; width: 150px; text-align: center; border: 2px solid #606060; border-radius: 6px; }
+
+.legend {
+    position: absolute;
+    right: 32px;
+    top: 75px;
+    width: 10%;
+    height: 50%;
+    z-index: 2;
+}
+
+.range{
+    position: absolute;
+    right: 0px;
+    width: 30px;
+    height: 100%
+}
+
+.thres {
+    position: absolute;
+    right: 40px;
+    top: 8%;
+    width: 60px;
+    height: auto;
+    color: white;
+    text-align: right;
+
+}
+.thresZ {
+    position: absolute;
+    right: 40px;
+    top: 97%;
+    width: 60px;
+    height: auto;
+    color: white;
+    text-align: right;
+}
+.minMax {
+    position: absolute;
+    right: 28px;
+    top: 62%;
+    width: 210px;
+    height: auto;
+    z-index: 3;
+    color: white;
+    text-align: right;
+}

@@ -1,1 +1,1 @@
-# ParaStair
+# ParametricStair
